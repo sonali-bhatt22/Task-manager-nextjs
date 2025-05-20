@@ -32,7 +32,7 @@ export default async function Todo() {
       <header className="flex justify-between m-10 items-center">
         <h1 className="text-2xl">{userSession?.username}'s Todos</h1>
         <Link href="/new" className="border-2 border-white px-2 py-1 rounded">
-          New
+          Create Todo
         </Link>
       </header>
       {todos?.length > 0 && (
